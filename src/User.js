@@ -9,8 +9,8 @@ export default function User({ name }) {
 	})
 
 	li.innerHTML = `
-		<img src="${photo}" alt="${name}" />
-		${name}
+		<span class="img"><img src="${photo}" alt="${name}" /></span>
+		<span class="name">${name}</span>
 	`
 
 	return li;

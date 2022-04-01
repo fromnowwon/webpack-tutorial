@@ -1,11 +1,5 @@
-// import { hello, add } from './util';
 import './style.css'
-import logo from './images/logo-1.png';
 import List from './List';
-
-// const text = hello('안녕하세요')
-// const num = add(1, 2);
-// const img = `<img src="${logo}" alt="logo">`
 
 const users = [
 	{
@@ -30,6 +24,6 @@ const users = [
 	},
 ]
 
-document.getElementById("root").appendChild(
+document.getElementById("user-list").appendChild(
 	List({ userList: users })
 )
